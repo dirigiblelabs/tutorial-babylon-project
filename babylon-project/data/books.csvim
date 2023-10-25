@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "table": "BABYLON_BOOKS",
+      "schema": "PUBLIC",
+      "file": "/babylon-project/data/books.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    }
+  ]
+}

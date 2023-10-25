@@ -1,0 +1,73 @@
+{
+    "name": "BABYLON_BOOKS",
+    "type": "TABLE",
+    "columns": [
+        {
+            "name": "BOOK_ID",
+            "type": "INTEGER",
+            "length": "0",
+            "primaryKey": true,
+            "identity": "true",
+            "precision": "",
+            "scale": "",
+            "unique": false,
+            "nullable": false
+        },
+        {
+            "name": "BOOK_ISBN",
+            "type": "CHAR",
+            "length": "17",
+            "primaryKey": false,
+            "identity": "false",
+            "precision": "",
+            "scale": "",
+            "unique": true,
+            "nullable": false
+        },
+        {
+            "name": "BOOK_TITLE",
+            "type": "VARCHAR",
+            "length": "120",
+            "primaryKey": false,
+            "identity": "false",
+            "precision": "",
+            "scale": "",
+            "unique": false,
+            "nullable": false
+        },
+        {
+            "name": "BOOK_PUBLISHER",
+            "type": "VARCHAR",
+            "length": "120",
+            "primaryKey": false,
+            "identity": "false",
+            "precision": "",
+            "scale": "",
+            "unique": false,
+            "nullable": false
+        },
+        {
+            "name": "BOOK_DATE",
+            "type": "DATE",
+            "length": "20",
+            "primaryKey": false,
+            "identity": "false",
+            "precision": "",
+            "scale": "",
+            "nullable": true,
+            "unique": false
+        },
+        {
+            "name": "BOOK_PRICE",
+            "type": "DOUBLE",
+            "length": "20",
+            "primaryKey": false,
+            "identity": "false",
+            "precision": "",
+            "scale": "",
+            "unique": false,
+            "nullable": false
+        }
+    ],
+    "dependencies": []
+}

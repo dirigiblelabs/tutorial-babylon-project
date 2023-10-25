@@ -1,0 +1,5 @@
+{
+    "module": "babylon-project/ui/Books/dialog-window/view.js",
+    "extensionPoint": "books-dialog-window",
+    "description": "Books - Application Dialog Window"
+}

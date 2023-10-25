@@ -1,0 +1,5 @@
+{
+    "module": "babylon-project/ui/perspective.js",
+    "extensionPoint": "books",
+    "description": "Books - Perspective"
+}

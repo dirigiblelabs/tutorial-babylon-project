@@ -1,0 +1,5 @@
+{
+    "module": "babylon-project/ui/Books/view.js",
+    "extensionPoint": "books-view",
+    "description": "Books - Application View"
+}
